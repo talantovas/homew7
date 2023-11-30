@@ -5,4 +5,8 @@
     <color name="orange">#ff9f0a</color>
     <color name="gray">#a5a5a5</color>
     <color name="dark_gray">#333333</color>
+    <color name="background">#28323B</color>
+    <color name="categoryColor">#DC366A</color>
+    <color name="btn_background">#702DFF</color>
+    <color name="type_color">#FFFFFF</color>
 </resources>

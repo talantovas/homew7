@@ -2,6 +2,7 @@ package com.geeks.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.text_view);
+
+        MaterialButton nextActivity = findViewById(R.id.next_activity);
+
+        nextActivity.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, SecondActiviity.class);
+            intent.putExtra("key1", textView.getText().toString());
+            startActivity(intent);
+
+        });
     }
 
     public void onNumberClick(View view) {

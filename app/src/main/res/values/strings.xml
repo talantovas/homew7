@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="text1">Explore the nightlife of your city</string>
+    <string name="participants_text">Participants</string>
+    <string name="accessibility_text">Accessibility</string>
+    <string name="free_textView">Free</string>
+    <string name="price_textView">Price</string>
+    <string name="price_text">price</string>
+    <string name="category_text">Category</string>
+    <string name="btn_text">Next</string>
+    <string name="type_text">Type</string>
+    <string name="second_activity">Second Activity</string>
+
 </resources>
